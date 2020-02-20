@@ -20,7 +20,7 @@ public class SoldierEnemy extends Enemy {
     @Override
     public String getMessage() {
 
-        return "Regular soldier";
+        return "Soldier Enemy";
 
     }
 

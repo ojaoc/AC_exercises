@@ -2,7 +2,7 @@ package org.academiadecodigo.ramsters.sniperelite.elements.targets;
 
 import org.academiadecodigo.ramsters.sniperelite.elements.GameObject;
 
-public abstract class Enemy extends GameObject {
+public abstract class Enemy extends GameObject implements Destroyable {
 
     private boolean isDead;
 
@@ -16,8 +16,8 @@ public abstract class Enemy extends GameObject {
 
     }
 
-
-    public boolean isDead() {
+    @Override
+    public boolean isDestroyed() {
 
         return isDead;
 

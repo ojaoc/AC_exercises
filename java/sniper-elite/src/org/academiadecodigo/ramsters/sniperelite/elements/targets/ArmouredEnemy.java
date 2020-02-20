@@ -36,8 +36,6 @@ public class ArmouredEnemy extends Enemy {
 
             }
 
-            System.out.println("\nThis soldier has " + this.armour + " remaining armor.");
-
         } else {
 
             super.hit(damage);

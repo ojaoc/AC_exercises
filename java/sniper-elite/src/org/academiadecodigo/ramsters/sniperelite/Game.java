@@ -3,9 +3,7 @@ package org.academiadecodigo.ramsters.sniperelite;
 import org.academiadecodigo.ramsters.sniperelite.elements.GameObject;
 import org.academiadecodigo.ramsters.sniperelite.elements.landscape.Tree;
 import org.academiadecodigo.ramsters.sniperelite.elements.shooter.SniperRifle;
-import org.academiadecodigo.ramsters.sniperelite.elements.targets.ArmouredEnemy;
-import org.academiadecodigo.ramsters.sniperelite.elements.targets.Enemy;
-import org.academiadecodigo.ramsters.sniperelite.elements.targets.SoldierEnemy;
+import org.academiadecodigo.ramsters.sniperelite.elements.targets.*;
 import org.academiadecodigo.ramsters.sniperelite.helper.Random;
 
 public class Game {
@@ -19,7 +17,7 @@ public class Game {
 
     public Game(int numberOfElements) {
 
-        this.gameObjects = createObjects(numberOfElements);
+        gameObjects = createObjects(numberOfElements);
 
         this.sniperRifle = new SniperRifle();
 
@@ -29,27 +27,31 @@ public class Game {
 
     public void start() {
 
-        for (GameObject target : gameObjects) {
+        for (int i = 0; i < gameObjects.length; i++) {
 
-            if (target instanceof Tree) continue;
+            if (gameObjects[i] instanceof Tree) continue;
 
-            System.out.println("\nAiming for " + target.getMessage());
+            Destroyable target = (Destroyable) gameObjects[i];
 
-            while (!((Enemy) target).isDead()) {
+            while (!target.isDestroyed()) {
 
-                sniperRifle.shoot((Enemy) target);
-
-                System.out.println("\n" + target.getMessage() + "'s health: " + ((Enemy) target).getHealth());
+                sniperRifle.shoot(target);
 
                 shotsFired++;
 
             }
 
-            System.out.println("\nTERMINATED.");
+            if (i + 1 > gameObjects.length) break;
+
+            if (target instanceof Barrel && !(gameObjects[i + 1] instanceof Tree)) {
+
+                Destroyable hitByExplosion = (Destroyable) gameObjects[i + 1];
+
+                hitByExplosion.hit(100);
+
+            }
 
         }
-
-        System.out.println("\nAll dead. " + shotsFired + " shots fired.");
 
     }
 
@@ -61,13 +63,19 @@ public class Game {
 
             if (Random.generateProbability() <= 70) {
 
-                if (Random.generateProbability() <= 50) {
+                int probability = Random.generateProbability();
+
+                if (probability <= 50) {
 
                     elements[i] = new SoldierEnemy();
 
-                } else {
+                } else if (probability <= 75){
 
                     elements[i] = new ArmouredEnemy();
+
+                } else if (probability <= 100) {
+
+                    elements[i] = new Barrel();
 
                 }
 
@@ -78,8 +86,6 @@ public class Game {
             }
 
         }
-
-        System.out.println("\nThere are " + SoldierEnemy.getInstantiations() + " regular soldiers, " + ArmouredEnemy.getInstantiations() + " armoured soldiers and " + Tree.getInstantiations() + " trees.");
 
         return elements;
 

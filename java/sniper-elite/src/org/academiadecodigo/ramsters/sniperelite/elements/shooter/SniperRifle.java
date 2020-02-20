@@ -1,6 +1,7 @@
 package org.academiadecodigo.ramsters.sniperelite.elements.shooter;
 
 import org.academiadecodigo.ramsters.sniperelite.elements.targets.BodyParts;
+import org.academiadecodigo.ramsters.sniperelite.elements.targets.Destroyable;
 import org.academiadecodigo.ramsters.sniperelite.elements.targets.Enemy;
 import org.academiadecodigo.ramsters.sniperelite.helper.Random;
 
@@ -14,37 +15,19 @@ public class SniperRifle {
 
     }
 
-    public void shoot(Enemy target) {
+    public void shoot(Destroyable target) {
 
         int probability = Random.generateProbability();
 
         int damageOutput;
 
-        System.out.println("\nPEW!");
+        if (target instanceof Enemy) {
 
-        if (probability <= BodyParts.HEAD.getProbability()) {
-
-            damageOutput = (int) (this.baseDamage * BodyParts.HEAD.getMultiplier());
-
-            System.out.println("\nHEADSHOT!");
-
-        } else if (probability <= BodyParts.LIMB.getProbability()) { // Miss the shot
-
-            damageOutput = (int) (this.baseDamage * BodyParts.LIMB.getMultiplier());
-
-            System.out.println("\nHIT ONE OF THE LIMBS!");
-
-        } else if (probability <= BodyParts.TORSO.getProbability()) {
-
-            damageOutput = (int) (this.baseDamage * BodyParts.TORSO.getMultiplier());
-
-            System.out.println("\nHIT THE TORSO.");
+            damageOutput = (int) (this.baseDamage * BodyParts.getBodyPart().getMultiplier());
 
         } else {
 
-            damageOutput = 0; // Miss the shot.
-
-            System.out.println("\nMISSED.");
+            damageOutput = baseDamage;
 
         }
 
