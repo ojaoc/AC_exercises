@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4d1dd1-ebd3-45e3-b28b-e98d319c4dcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../farm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../farm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../genie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../genie/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Barrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Barrel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BarrelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BarrelType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Destroyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Destroyable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,42 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/shooter/SniperRifle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="112">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/helper/Random.java">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="160">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -94,11 +68,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/landscape/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="320">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BarrelType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Barrel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Destroyable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -117,7 +121,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -136,9 +142,12 @@
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/SoldierEnemy.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/landscape/Tree.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/ArmouredEnemy.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/shooter/SniperRifle.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Destroyable.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Barrel.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BarrelType.java" />
       </list>
     </option>
   </component>
@@ -150,8 +159,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="757" />
-    <option name="width" value="1163" />
+    <option name="x" value="962" />
+    <option name="width" value="958" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -222,8 +231,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,17 +289,19 @@
       <workItem from="1582196132989" duration="20000" />
       <workItem from="1582196420421" duration="21000" />
       <workItem from="1582196475869" duration="7000" />
+      <workItem from="1582196764517" duration="403000" />
+      <workItem from="1582214779179" duration="898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17722000" />
+    <option name="totallyTimeSpent" value="19023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="992" extended-state="0" />
+    <frame x="772" y="0" width="1148" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1373802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19620253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,23 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/shooter/SniperRifle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/helper/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -384,6 +378,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/landscape/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -391,10 +392,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/landscape/Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Destroyable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/shooter/SniperRifle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BarrelType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Barrel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>

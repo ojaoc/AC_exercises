@@ -1,9 +1,10 @@
 package org.academiadecodigo.ramsters.sniperelite.elements.targets;
 
 public enum BodyParts {
-    HEAD(2, 10),
-    TORSO(1, 80),
-    LIMB(0.5, 30);
+    HEAD(2, 15),
+    TORSO(1, 50),
+    LIMB(0.5, 80),
+    MISS(0, 100);
 
     private double multiplier;
 
