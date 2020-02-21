@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a4d1dd1-ebd3-45e3-b28b-e98d319c4dcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/shooter/SniperRifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/shooter/SniperRifle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/ArmouredEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/ArmouredEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Barrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Barrel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/SoldierEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/SoldierEnemy.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a4d1dd1-ebd3-45e3-b28b-e98d319c4dcb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="503">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -94,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+            <state relative-caret-position="224">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -292,18 +284,18 @@
       <workItem from="1582196420421" duration="21000" />
       <workItem from="1582196475869" duration="7000" />
       <workItem from="1582196764517" duration="403000" />
-      <workItem from="1582214779179" duration="3872000" />
+      <workItem from="1582214779179" duration="3927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21997000" />
+    <option name="totallyTimeSpent" value="22052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="772" y="0" width="1148" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19620253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19620253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +304,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,7 +443,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -464,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sniperelite/elements/targets/BodyParts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        <state relative-caret-position="224">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
