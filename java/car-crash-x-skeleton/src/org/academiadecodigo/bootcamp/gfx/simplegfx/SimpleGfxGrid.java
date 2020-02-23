@@ -16,7 +16,7 @@ public class SimpleGfxGrid implements Grid {
 
     private Rectangle screen;
 
-    private int cellSize = 20;
+    private int cellSize = 10;
 
     private int cols;
     private int rows;
@@ -28,13 +28,13 @@ public class SimpleGfxGrid implements Grid {
 
     }
 
-    /**
+    /**car-crash-x-skeleton
      * @see Grid#init()
      */
     @Override
     public void init() {
 
-        this.screen = new Rectangle(PADDING, PADDING, columnToX(cols), rowToY(rows));
+        this.screen = new Rectangle(PADDING, PADDING, getWidth(), getHeight());
 
         screen.setColor(Color.BLACK);
 
