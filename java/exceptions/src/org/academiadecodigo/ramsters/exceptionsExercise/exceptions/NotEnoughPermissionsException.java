@@ -4,7 +4,7 @@ public class NotEnoughPermissionsException extends FileException {
 
     public NotEnoughPermissionsException() {
 
-        super("You don't have access to that file.");
+        super("You don't have permission to do that.");
 
     }
 
