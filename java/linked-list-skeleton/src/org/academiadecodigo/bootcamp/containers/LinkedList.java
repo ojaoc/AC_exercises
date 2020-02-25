@@ -36,7 +36,30 @@ public class LinkedList {
      */
     public Object get(int index) {
 
-        throw new UnsupportedOperationException();
+        if (length == 0) return null;
+
+        Node iterator = head.getNext();
+
+        int currentIndex = 0;
+
+        while (currentIndex != index && iterator.getNext() != null) {
+
+            iterator = iterator.getNext();
+
+            currentIndex++;
+
+        }
+
+        if (currentIndex == index) {
+
+            return iterator.getData();
+
+        } else {
+
+            return null;
+
+        }
+
     }
 
     /**
@@ -46,7 +69,28 @@ public class LinkedList {
      */
     public int indexOf(Object data) {
 
-        throw new UnsupportedOperationException();
+        if (length == 0) return -1;
+
+        Node iterator = head.getNext();
+
+        int index = 0;
+
+        while (iterator != null) {
+
+            if (iterator.getData().equals(data)) {
+
+                return index;
+
+            }
+
+            iterator = iterator.getNext();
+
+            index++;
+
+        }
+
+        return -1;
+
     }
 
     /**
@@ -56,7 +100,33 @@ public class LinkedList {
      */
     public boolean remove(Object data) {
 
-        throw new UnsupportedOperationException();
+        if (length == 0) return false;
+
+        Node iterator = head.getNext();
+
+        Node previous = head;
+
+        while (iterator != null) {
+
+            if (iterator.getData().equals(data)) {
+
+                iterator.setData(null);
+
+                previous.setNext(iterator.getNext());
+
+                length--;
+
+                return true;
+
+            }
+
+            previous = iterator;
+
+            iterator = iterator.getNext();
+
+        }
+
+        return false;
 
     }
 
