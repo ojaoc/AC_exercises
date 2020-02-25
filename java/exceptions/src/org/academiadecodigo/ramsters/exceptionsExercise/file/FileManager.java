@@ -9,7 +9,7 @@ public class FileManager {
 
     private File existingFile;
 
-    private boolean foundFile; // Here goes file we are trying to get.
+    private boolean foundFile;
 
     private String password;
 
