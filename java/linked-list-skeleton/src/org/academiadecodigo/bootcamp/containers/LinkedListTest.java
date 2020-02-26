@@ -19,7 +19,7 @@ public class LinkedListTest {
     public boolean testAdd() {
 
         // Preparation
-        LinkedList list = new LinkedList();
+        LinkedList<Integer> list = new LinkedList<>();
 
         // Empty list should contain zero elements
         if (list.size() != 0) {
@@ -27,19 +27,19 @@ public class LinkedListTest {
         }
 
         // List with one element should have size of one
-        list.add(new Integer(1));
+        list.add(1);
         if (list.size() != 1) {
             return false;
         }
 
         // List with two elements should have size of two
-        list.add(new Integer(2));
+        list.add(2);
         if (list.size() != 2) {
             return false;
         }
 
         // List with three elements should have size of three
-        list.add(new Integer(3));
+        list.add(3);
         if (list.size() != 3) {
             return false;
         }
@@ -56,11 +56,11 @@ public class LinkedListTest {
     public boolean testIndex() {
 
         // Preparation
-        LinkedList list = new LinkedList();
-        Object data1 = new Integer(1);
-        Object data2 = new Integer(2);
-        Object data3 = new Integer(3);
-        Object data4 = new Integer(4);
+        LinkedList<Object> list = new LinkedList<>();
+        Object data1 = 1;
+        Object data2 = 2;
+        Object data3 = 3;
+        Object data4 = 4;
 
         // Tests with empty list
         if (list.indexOf(data1) != -1) {
@@ -120,10 +120,10 @@ public class LinkedListTest {
     public boolean testGet() {
 
         // Preparation
-        LinkedList list = new LinkedList();
-        Object data1 = new Integer(1);
-        Object data2 = new Integer(2);
-        Object data3 = new Integer(3);
+        LinkedList<Object> list = new LinkedList<>();
+        Object data1 = 1;
+        Object data2 = 2;
+        Object data3 = 3;
 
         // Tests with empty list
         if (list.get(0) != null) {
@@ -204,11 +204,11 @@ public class LinkedListTest {
     public boolean testRemove() {
 
         // Preparation
-        LinkedList list = new LinkedList();
-        Object data1 = new Integer(1);
-        Object data2 = new Integer(2);
-        Object data3 = new Integer(3);
-        Object data4 = new Integer(4);
+        LinkedList<Object> list = new LinkedList<>();
+        Object data1 = 1;
+        Object data2 = 2;
+        Object data3 = 3;
+        Object data4 = 4;
 
         // Test removal with empty list
         if (list.remove(data1)) {
