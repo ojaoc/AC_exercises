@@ -1,10 +1,19 @@
 package org.academiadecodigo.bootcamp.containers;
 
-public class LinkedList<T> {
+import java.util.Iterator;
+
+public class LinkedList<T> implements Iterable<T> {
 
     private Node head;
 
     private int length = 0;
+
+    @Override
+    public Iterator<T> iterator() {
+
+        return new LinkedListIterator();
+
+    }
 
     public LinkedList() {
 
@@ -166,6 +175,28 @@ public class LinkedList<T> {
         public void setNext(Node next) {
             this.next = next;
         }
+    }
+
+    private class LinkedListIterator implements Iterator<T> {
+
+        Node i = head;
+
+        @Override
+        public boolean hasNext() {
+
+            return i.getNext() != null;
+
+        }
+
+        @Override
+        public T next() {
+
+            i = i.getNext();
+
+            return i.getData();
+
+        }
+
     }
 
 }
