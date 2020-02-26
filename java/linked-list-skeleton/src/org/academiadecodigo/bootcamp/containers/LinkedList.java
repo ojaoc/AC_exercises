@@ -3,14 +3,19 @@ package org.academiadecodigo.bootcamp.containers;
 public class LinkedList<T> {
 
     private Node head;
+
     private int length = 0;
 
     public LinkedList() {
+
         this.head = new Node(null);
+
     }
 
     public int size() {
+
         return length;
+
     }
 
     /**
@@ -20,11 +25,17 @@ public class LinkedList<T> {
     public void add(T data)  {
 
         Node node = new Node(data);
+
         Node iterator = head;
+
         while (iterator.getNext() != null){
+
             iterator = iterator.getNext();
+
         }
+
         iterator.setNext(node);
+
         length++;
 
     }

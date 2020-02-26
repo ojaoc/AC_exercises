@@ -1,5 +1,7 @@
 package org.academiadecodigo.bootcamp.containers;
 
+import java.io.ObjectStreamException;
+
 public class LinkedListTest {
     public static void main(String[] args) {
 
