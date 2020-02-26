@@ -2,11 +2,11 @@ package org.academiadecodigo.bootcamp.containers;
 
 public class LinkedList<T> {
 
-    private Node<T> head;
+    private Node head;
     private int length = 0;
 
     public LinkedList() {
-        this.head = new Node<>(null);
+        this.head = new Node(null);
     }
 
     public int size() {
@@ -19,8 +19,8 @@ public class LinkedList<T> {
      */
     public void add(T data)  {
 
-        Node<T> node = new Node<>(data);
-        Node<T> iterator = head;
+        Node node = new Node(data);
+        Node iterator = head;
         while (iterator.getNext() != null){
             iterator = iterator.getNext();
         }
@@ -38,7 +38,7 @@ public class LinkedList<T> {
 
         if (length == 0) return null;
 
-        Node<T> iterator = head.getNext();
+        Node iterator = head.getNext();
 
         int currentIndex = 0;
 
@@ -71,7 +71,7 @@ public class LinkedList<T> {
 
         if (length == 0) return -1;
 
-        Node<T> iterator = head.getNext();
+        Node iterator = head.getNext();
 
         int index = 0;
 
@@ -102,9 +102,9 @@ public class LinkedList<T> {
 
         if (length == 0) return false;
 
-        Node<T> iterator = head.getNext();
+        Node iterator = head.getNext();
 
-        Node<T> previous = head;
+        Node previous = head;
 
         while (iterator != null) {
 
@@ -130,10 +130,10 @@ public class LinkedList<T> {
 
     }
 
-    private class Node<T> {
+    private class Node {
 
         private T data;
-        private Node<T> next;
+        private Node next;
 
         public Node(T data) {
             this.data = data;
@@ -148,7 +148,7 @@ public class LinkedList<T> {
             this.data = data;
         }
 
-        public Node<T> getNext() {
+        public Node getNext() {
             return next;
         }
 
