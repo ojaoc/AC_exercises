@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38513988-1719-468a-8ab4-80da24e1cfd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../sniper-elite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sniper-elite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-list/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-list/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-list/src/org/academiadecodigo/ramsters/todoList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-list/src/org/academiadecodigo/ramsters/todoList/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/Genie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-394">
+            <state relative-caret-position="135">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -28,17 +29,95 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/MagicLamp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="1035">
               <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/RecyclableDemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="360">
               <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/org.academiadecodigo.ramsters.genie">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>org.academiadecodigo.ramsters.genie</OriginalElement>
+              <nodes>
+                <node x="0.0" y="245.0">org.academiadecodigo.ramsters.genie.RecyclableDemon</node>
+                <node x="397.0" y="256.5">org.academiadecodigo.ramsters.genie.GrumpyGenie</node>
+                <node x="216.51428571428573" y="403.0">org.academiadecodigo.ramsters.genie.MagicLamp</node>
+                <node x="219.0" y="-99.0">org.academiadecodigo.ramsters.genie.Main</node>
+                <node x="240.6809523809524" y="0.0">org.academiadecodigo.ramsters.genie.Genie</node>
+                <node x="201.0" y="256.5">org.academiadecodigo.ramsters.genie.FriendlyGenie</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="org.academiadecodigo.ramsters.genie.FriendlyGenie" target="org.academiadecodigo.ramsters.genie.Genie">
+                  <point x="-44.0" y="-36.5" />
+                  <point x="245.0" y="225.0" />
+                  <point x="303.53809523809525" y="225.0" />
+                  <point x="-25.14285714285711" y="92.5" />
+                </edge>
+                <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.Genie">
+                  <point x="67.60000000000002" y="-70.0" />
+                  <point x="359.61428571428576" y="371.0" />
+                  <point x="583.5" y="371.0" />
+                  <point x="583.5" y="205.0" />
+                  <point x="404.1095238095238" y="205.0" />
+                  <point x="75.42857142857144" y="92.5" />
+                </edge>
+                <edge source="org.academiadecodigo.ramsters.genie.GrumpyGenie" target="org.academiadecodigo.ramsters.genie.Genie">
+                  <point x="-44.0" y="-36.5" />
+                  <point x="441.0" y="225.0" />
+                  <point x="353.8238095238096" y="225.0" />
+                  <point x="25.142857142857167" y="92.5" />
+                </edge>
+                <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.GrumpyGenie">
+                  <point x="33.80000000000001" y="-70.0" />
+                  <point x="325.81428571428575" y="361.0" />
+                  <point x="485.0" y="361.0" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.FriendlyGenie">
+                  <point x="0.0" y="-70.0" />
+                  <point x="292.01428571428573" y="371.0" />
+                  <point x="289.0" y="371.0" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="org.academiadecodigo.ramsters.genie.RecyclableDemon" target="org.academiadecodigo.ramsters.genie.Genie">
+                  <point x="45.25" y="-48.0" />
+                  <point x="135.75" y="215.0" />
+                  <point x="278.39523809523814" y="215.0" />
+                  <point x="-50.28571428571428" y="92.5" />
+                </edge>
+                <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.RecyclableDemon">
+                  <point x="-33.80000000000001" y="-70.0" />
+                  <point x="258.2142857142857" y="361.0" />
+                  <point x="135.75" y="361.0" />
+                  <point x="45.25" y="48.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="264.5" y="166.5" />
+              <SelectedNodes>
+                <node>org.academiadecodigo.ramsters.genie.Genie</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -46,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="330">
               <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
@@ -55,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/GrumpyGenie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="330">
               <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
             </state>
           </provider>
@@ -64,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/FriendlyGenie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="420">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
@@ -101,10 +180,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="992" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="905" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -114,6 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,14 +216,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -195,17 +274,18 @@
       <workItem from="1581603331369" duration="12000" />
       <workItem from="1581609546666" duration="447000" />
       <workItem from="1582196446416" duration="12000" />
+      <workItem from="1582887471061" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19505000" />
+    <option name="totallyTimeSpent" value="19577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="992" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2630458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,45 +350,121 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/FriendlyGenie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/Genie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
+        <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/GrumpyGenie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/MagicLamp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="1035">
           <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/GrumpyGenie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/FriendlyGenie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/genie/RecyclableDemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="360">
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.academiadecodigo.ramsters.genie">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.academiadecodigo.ramsters.genie</OriginalElement>
+          <nodes>
+            <node x="0.0" y="245.0">org.academiadecodigo.ramsters.genie.RecyclableDemon</node>
+            <node x="397.0" y="256.5">org.academiadecodigo.ramsters.genie.GrumpyGenie</node>
+            <node x="216.51428571428573" y="403.0">org.academiadecodigo.ramsters.genie.MagicLamp</node>
+            <node x="219.0" y="-99.0">org.academiadecodigo.ramsters.genie.Main</node>
+            <node x="240.6809523809524" y="0.0">org.academiadecodigo.ramsters.genie.Genie</node>
+            <node x="201.0" y="256.5">org.academiadecodigo.ramsters.genie.FriendlyGenie</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.academiadecodigo.ramsters.genie.FriendlyGenie" target="org.academiadecodigo.ramsters.genie.Genie">
+              <point x="-44.0" y="-36.5" />
+              <point x="245.0" y="225.0" />
+              <point x="303.53809523809525" y="225.0" />
+              <point x="-25.14285714285711" y="92.5" />
+            </edge>
+            <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.Genie">
+              <point x="67.60000000000002" y="-70.0" />
+              <point x="359.61428571428576" y="371.0" />
+              <point x="583.5" y="371.0" />
+              <point x="583.5" y="205.0" />
+              <point x="404.1095238095238" y="205.0" />
+              <point x="75.42857142857144" y="92.5" />
+            </edge>
+            <edge source="org.academiadecodigo.ramsters.genie.GrumpyGenie" target="org.academiadecodigo.ramsters.genie.Genie">
+              <point x="-44.0" y="-36.5" />
+              <point x="441.0" y="225.0" />
+              <point x="353.8238095238096" y="225.0" />
+              <point x="25.142857142857167" y="92.5" />
+            </edge>
+            <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.GrumpyGenie">
+              <point x="33.80000000000001" y="-70.0" />
+              <point x="325.81428571428575" y="361.0" />
+              <point x="485.0" y="361.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.FriendlyGenie">
+              <point x="0.0" y="-70.0" />
+              <point x="292.01428571428573" y="371.0" />
+              <point x="289.0" y="371.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="org.academiadecodigo.ramsters.genie.RecyclableDemon" target="org.academiadecodigo.ramsters.genie.Genie">
+              <point x="45.25" y="-48.0" />
+              <point x="135.75" y="215.0" />
+              <point x="278.39523809523814" y="215.0" />
+              <point x="-50.28571428571428" y="92.5" />
+            </edge>
+            <edge source="org.academiadecodigo.ramsters.genie.MagicLamp" target="org.academiadecodigo.ramsters.genie.RecyclableDemon">
+              <point x="-33.80000000000001" y="-70.0" />
+              <point x="258.2142857142857" y="361.0" />
+              <point x="135.75" y="361.0" />
+              <point x="45.25" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="264.5" y="166.5" />
+          <SelectedNodes>
+            <node>org.academiadecodigo.ramsters.genie.Genie</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

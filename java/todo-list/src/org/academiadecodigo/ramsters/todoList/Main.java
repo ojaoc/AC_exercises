@@ -29,7 +29,7 @@ public class Main {
         while (list.peek() != null) {
 
             System.out.println(list.poll().getMessage());
-            
+
         }
 
     }
