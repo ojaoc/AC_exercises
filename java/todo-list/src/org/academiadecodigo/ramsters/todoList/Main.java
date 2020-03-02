@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        PriorityQueue<Task> list = new TodoList().getList();
+        TodoList list = new TodoList();
 
         list.add(new Task("Feed the midlane", PriorityLevel.EXTREME, 0));
         list.add(new Task("Vote", PriorityLevel.LOW, 1));

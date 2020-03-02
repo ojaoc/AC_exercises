@@ -2,9 +2,10 @@ package org.academiadecodigo.ramsters.todoList.list;
 
 import org.academiadecodigo.ramsters.todoList.task.Task;
 
+import java.util.Iterator;
 import java.util.PriorityQueue;
 
-public class TodoList {
+public class TodoList implements Iterable<Task> {
 
     private PriorityQueue<Task> list;
 
@@ -14,9 +15,16 @@ public class TodoList {
 
     }
 
-    public PriorityQueue<Task> getList() {
+    public void add(Task task) {
 
-        return list;
+        list.add(task);
+
+    }
+
+    @Override
+    public Iterator<Task> iterator() {
+
+        return list.iterator();
 
     }
 
