@@ -8,7 +8,11 @@ class CopyCat {
 
     private FileOutputStream outputStream;
 
+    private byte[] buffer;
+
     CopyCat(String filePath, String destination) {
+
+        buffer = new byte[1024];
 
         try {
 
@@ -16,13 +20,13 @@ class CopyCat {
 
             outputStream = new FileOutputStream(destination);
 
-            int read = inputStream.read();
+            int read = inputStream.read(buffer);
 
             while (read != -1) {
 
-                outputStream.write(read);
+                outputStream.write(buffer, 0, read);
 
-                read = inputStream.read();
+                read = inputStream.read(buffer);
 
             }
 
