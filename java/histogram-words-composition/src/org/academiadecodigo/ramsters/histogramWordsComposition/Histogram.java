@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class Histogram implements Iterable<String> {
 
-    HashMap<String, Integer> hashMap;
+    private HashMap<String, Integer> hashMap;
 
     public Histogram() {
 

@@ -40,6 +40,4 @@ public class Histogram extends HashMap<String, Integer> implements Iterable<Stri
 
     }
 
-
-
 }
