@@ -1,5 +1,6 @@
-package org.academiadecodigo.ramsters.mapEditor;
+package org.academiadecodigo.ramsters.mapEditor.elements;
 
+import org.academiadecodigo.ramsters.mapEditor.canvas.Grid;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
@@ -19,10 +20,23 @@ abstract public class Element {
 
         this.rectangle = new Rectangle(grid.colToX(x) + Grid.PADDING, grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.CELL_SIZE);
 
-        this.rectangle.setColor(Color.BLACK);
+    }
 
-        this.rectangle.draw();
+    public Grid getGrid() {
+
+        return grid;
 
     }
 
+    public Position getPosition() {
+
+        return position;
+
+    }
+
+    public Rectangle getRectangle() {
+
+        return rectangle;
+
+    }
 }

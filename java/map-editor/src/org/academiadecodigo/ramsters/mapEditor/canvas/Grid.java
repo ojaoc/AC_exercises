@@ -1,4 +1,4 @@
-package org.academiadecodigo.ramsters.mapEditor;
+package org.academiadecodigo.ramsters.mapEditor.canvas;
 
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;

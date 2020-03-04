@@ -1,6 +1,6 @@
-package org.academiadecodigo.ramsters.mapEditor;
+package org.academiadecodigo.ramsters.mapEditor.elements;
 
-import org.academiadecodigo.simplegraphics.graphics.Rectangle;
+import org.academiadecodigo.ramsters.mapEditor.canvas.Grid;
 
 public class Position {
 
@@ -32,13 +32,13 @@ public class Position {
 
     public void setCol(int col) {
 
-        this.col = col;
+        this.col += col;
 
     }
 
     public void setRow(int row) {
 
-        this.row = row;
+        this.row += row;
 
     }
 
