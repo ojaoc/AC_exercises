@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        new CopyCat("text.txt", "copyText.txt");
+        new CopyCat("UML_firstProjects.pdf", "copyUML.pdf");
 
     }
 
