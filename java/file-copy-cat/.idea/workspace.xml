@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e038c33-170c-4118-972e-7cf859f51f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copyText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/copyText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/file-copy-cat/org/academiadecodigo/ramsters/copyCat/CopyCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/file-copy-cat/org/academiadecodigo/ramsters/copyCat/CopyCat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/file-copy-cat/org/academiadecodigo/ramsters/copyCat/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/file-copy-cat/org/academiadecodigo/ramsters/copyCat/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/copyCat/CopyCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/copyCat/CopyCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/copyCat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/copyCat/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-list/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-list/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Designer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Designer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Tile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/copyCat/CopyCat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="120">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -89,10 +85,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="992" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="962" />
+    <option name="width" value="958" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -102,8 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +120,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,17 +183,18 @@
       <workItem from="1583232631161" duration="5773000" />
       <workItem from="1583246572695" duration="747000" />
       <workItem from="1583250788453" duration="537000" />
+      <workItem from="1583404025624" duration="2240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7057000" />
+    <option name="totallyTimeSpent" value="9297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="992" extended-state="0" />
+    <frame x="962" y="0" width="958" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14802982" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30676857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,7 +203,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3611111" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36039603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/copyCat/CopyCat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>

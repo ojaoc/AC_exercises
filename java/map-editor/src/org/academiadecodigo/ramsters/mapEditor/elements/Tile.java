@@ -6,9 +6,13 @@ import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
 public class Tile extends Element {
 
+    private String color;
+
     public Tile(int x, int y, Grid grid) {
 
         super(x, y, grid);
+
+        color = "B";
 
         getRectangle().setColor(Color.BLACK);
 
@@ -18,6 +22,8 @@ public class Tile extends Element {
 
     public void paint() {
 
+        color = "R";
+
         getRectangle().setColor(Color.RED);
 
         getRectangle().fill();
@@ -26,9 +32,17 @@ public class Tile extends Element {
 
     public void erase() {
 
+        color = "B";
+
         getRectangle().setColor(Color.BLACK);
 
         getRectangle().draw();
+
+    }
+
+    public String getColor() {
+
+        return color;
 
     }
 

@@ -61,12 +61,6 @@ public class Designer extends Element implements KeyboardHandler {
         KeyboardEvent cPressed = new KeyboardEvent();
         KeyboardEvent cReleased = new KeyboardEvent();
 
-        KeyboardEvent sPressed = new KeyboardEvent();
-        KeyboardEvent sReleased = new KeyboardEvent();
-
-        KeyboardEvent lPressed = new KeyboardEvent();
-        KeyboardEvent lReleased = new KeyboardEvent();
-
 
         upPressed.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
         upReleased.setKeyboardEventType(KeyboardEventType.KEY_RELEASED);
@@ -103,16 +97,6 @@ public class Designer extends Element implements KeyboardHandler {
         cPressed.setKey(KeyboardEvent.KEY_C);
         cReleased.setKey(KeyboardEvent.KEY_C);
 
-        sPressed.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
-        sReleased.setKeyboardEventType(KeyboardEventType.KEY_RELEASED);
-        sPressed.setKey(KeyboardEvent.KEY_S);
-        sReleased.setKey(KeyboardEvent.KEY_S);
-
-        lPressed.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
-        lReleased.setKeyboardEventType(KeyboardEventType.KEY_RELEASED);
-        lPressed.setKey(KeyboardEvent.KEY_L);
-        lReleased.setKey(KeyboardEvent.KEY_L);
-
         keyboard.addEventListener(upPressed);
         keyboard.addEventListener(upReleased);
 
@@ -133,12 +117,6 @@ public class Designer extends Element implements KeyboardHandler {
 
         keyboard.addEventListener(cPressed);
         keyboard.addEventListener(cReleased);
-
-        keyboard.addEventListener(sPressed);
-        keyboard.addEventListener(sReleased);
-
-        keyboard.addEventListener(lPressed);
-        keyboard.addEventListener(lReleased);
 
     }
 
