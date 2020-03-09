@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Canvas canvas = new Canvas(25, 25);
+        Canvas canvas = new Canvas(40, 40);
 
         canvas.start();
 

@@ -159,13 +159,19 @@ public class Canvas implements KeyboardHandler {
 
     private void save() {
 
-        String result = "";
+        String result;
+
+        StringBuilder stringBuilder = new StringBuilder();
 
         for (Tile tile : tiles) {
 
-            result += tile.getColor() + " ";
+            stringBuilder.append(tile.getColor());
+            
+            stringBuilder.append(" ");
 
         }
+
+        result = stringBuilder.toString();
 
         try {
 

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="809ca935-d38c-45fd-a01e-5264b1b0e8e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../file-copy-cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../file-copy-cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/elements/Designer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/elements/Designer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/elements/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/elements/Designer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/elements/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/out/production/map-editor/org/academiadecodigo/ramsters/mapEditor/elements/Tile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Designer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Designer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/src/org/academiadecodigo/ramsters/mapEditor/elements/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map-editor/tileFormat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/tileFormat.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -179,12 +171,12 @@
       <workItem from="1583250232118" duration="5352000" />
       <workItem from="1583256488189" duration="2298000" />
       <workItem from="1583318263245" duration="465000" />
-      <workItem from="1583406676274" duration="499000" />
+      <workItem from="1583406676274" duration="555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8614000" />
+    <option name="totallyTimeSpent" value="8670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="962" y="0" width="958" height="1080" extended-state="0" />

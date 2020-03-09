@@ -22,6 +22,8 @@ public class Tile extends Element {
 
     public void paint() {
 
+        if (color.equals("R")) return;
+
         color = "R";
 
         getRectangle().setColor(Color.RED);
@@ -31,6 +33,8 @@ public class Tile extends Element {
     }
 
     public void erase() {
+
+        if (color.equals("B")) return;
 
         color = "B";
 
