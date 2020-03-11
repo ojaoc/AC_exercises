@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62baed32-97fe-4ed8-ab5d-09f02a1ede95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/elements/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/elements/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tileFormat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tileFormat.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../word-reader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../word-reader/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="62baed32-97fe-4ed8-ab5d-09f02a1ede95" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,18 +48,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+            <state relative-caret-position="2520">
+              <caret line="168" column="12" lean-forward="true" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tileFormat.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -236,12 +224,12 @@
       <updated>1583332220544</updated>
       <workItem from="1583332222045" duration="11090000" />
       <workItem from="1583401931148" duration="5713000" />
-      <workItem from="1583761897789" duration="671000" />
+      <workItem from="1583761897789" duration="851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17474000" />
+    <option name="totallyTimeSpent" value="17654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -260,7 +248,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.36930692" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.36930692" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -375,9 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tileFormat.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -385,10 +370,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tileFormat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/ramsters/mapEditor/canvas/Canvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+        <state relative-caret-position="2520">
+          <caret line="168" column="12" lean-forward="true" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
