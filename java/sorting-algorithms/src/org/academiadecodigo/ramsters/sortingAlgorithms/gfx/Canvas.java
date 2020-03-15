@@ -18,6 +18,24 @@ public class Canvas {
 
     }
 
+    public int getWidth() {
+
+        return grid.getWidth();
+
+    }
+
+    public int getCols() {
+
+        return grid.getCols();
+
+    }
+
+    public int getRows() {
+
+        return grid.getRows();
+
+    }
+
     public void setBars(Bar[] bars) {
 
         this.bars = bars;

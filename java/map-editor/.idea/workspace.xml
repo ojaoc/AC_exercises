@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62baed32-97fe-4ed8-ab5d-09f02a1ede95" name="Default Changelist" comment="" />
+    <list default="true" id="62baed32-97fe-4ed8-ab5d-09f02a1ede95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/META-INF/sorting-algorithms.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +46,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -72,6 +91,7 @@
       <workItem from="1583761897789" duration="851000" />
       <workItem from="1584023525045" duration="3681000" />
       <workItem from="1584100938482" duration="57000" />
+      <workItem from="1584289560831" duration="620000" />
     </task>
     <servers />
   </component>

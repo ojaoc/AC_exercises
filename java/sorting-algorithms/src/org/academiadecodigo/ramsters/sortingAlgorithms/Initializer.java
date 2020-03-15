@@ -1,8 +1,12 @@
 package org.academiadecodigo.ramsters.sortingAlgorithms;
 
+import org.academiadecodigo.ramsters.sortingAlgorithms.algorithms.Algorithms;
+import org.academiadecodigo.ramsters.sortingAlgorithms.algorithms.BubbleSort;
 import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Bar;
 import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Canvas;
 import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Grid;
+
+import java.security.AlgorithmConstraints;
 
 public class Initializer {
 
@@ -10,9 +14,12 @@ public class Initializer {
 
     private int numberOfItems;
 
+    private int[] items;
+
+
     public Initializer(int numberOfItems) {
 
-        this.canvas = new Canvas(80, 50);
+        this.canvas = new Canvas(numberOfItems, 60);
 
         this.numberOfItems = numberOfItems;
 
@@ -24,11 +31,29 @@ public class Initializer {
 
         Bar[] bars = new Bar[numberOfItems];
 
-        for (Bar each : bars) {
+        items = new int[numberOfItems];
 
-            each = new Bar(currentCol, 10);
+        for (int i = 0; i < numberOfItems; i++) {
+
+            bars[i] = new Bar(currentCol, canvas);
+
+            items[i] = bars[i].getItem();
 
             currentCol++;
+
+        }
+
+    }
+
+    public void sort(Algorithms algorithm) {
+
+        switch (algorithm) {
+
+            case BUBBLE_SORT:
+
+                BubbleSort bubbleSort = new BubbleSort(items);
+
+                break;
 
         }
 

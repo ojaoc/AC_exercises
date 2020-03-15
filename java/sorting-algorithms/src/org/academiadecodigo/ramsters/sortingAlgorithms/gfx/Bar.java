@@ -9,15 +9,33 @@ public class Bar {
 
     Rectangle rectangle;
 
-    public Bar(int x, int y) {
+    Canvas canvas;
 
-        item = (int) (Math.ceil(Math.random() * 80));
+    public Bar(int x, Canvas canvas) {
 
-        rectangle = new Rectangle(Grid.colToX(x), Grid.rowToY(y), Grid.CELL_SIZE, Grid.rowToY(item));
+        this.canvas = canvas;
+
+        item = (int) (Math.ceil(Math.random() * canvas.getRows()));
+
+        int y = canvas.getRows() - item;
+
+        rectangle = new Rectangle(Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(item));
 
         rectangle.setColor(Color.BLUE);
 
-        rectangle.fill();
+        rectangle.draw();
+
+    }
+
+    public void replace() {
+
+        
+
+    }
+
+    public int getItem() {
+
+        return item;
 
     }
 
