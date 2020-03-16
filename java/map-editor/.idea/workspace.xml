@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62baed32-97fe-4ed8-ab5d-09f02a1ede95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tileFormat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tileFormat.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/META-INF/sorting-algorithms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +87,35 @@
       <workItem from="1584023525045" duration="3681000" />
       <workItem from="1584100938482" duration="57000" />
       <workItem from="1584289560831" duration="620000" />
+      <workItem from="1584297498944" duration="436000" />
+      <workItem from="1584352291305" duration="96000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1322" height="211" key="GridCell.Tab.0.bottom" timestamp="1584297934857">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="211" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584297934857" />
+    <state width="1322" height="211" key="GridCell.Tab.0.center" timestamp="1584297934857">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="211" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584297934857" />
+    <state width="1322" height="211" key="GridCell.Tab.0.left" timestamp="1584297934857">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="211" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584297934857" />
+    <state width="1322" height="211" key="GridCell.Tab.0.right" timestamp="1584297934857">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="211" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584297934857" />
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584297499654">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584297499654" />
   </component>
   <component name="masterDetails">
     <states>

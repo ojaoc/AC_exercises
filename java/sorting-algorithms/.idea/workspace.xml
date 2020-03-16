@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map-editor/tileFormat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/tileFormat.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/META-INF/sorting-algorithms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Canvas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +85,8 @@
       <updated>1584282749854</updated>
       <workItem from="1584282755478" duration="1401000" />
       <workItem from="1584287560532" duration="6463000" />
+      <workItem from="1584297267351" duration="214000" />
+      <workItem from="1584350376328" duration="3362000" />
     </task>
     <servers />
   </component>
@@ -96,34 +94,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl" timestamp="1584289554602">
+    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl" timestamp="1584352287403">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584289554602" />
-    <state width="1322" height="184" key="GridCell.Tab.0.bottom" timestamp="1584294035550">
+    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584352287403" />
+    <state width="1322" height="184" key="GridCell.Tab.0.bottom" timestamp="1584353629548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584294035550" />
-    <state width="1322" height="184" key="GridCell.Tab.0.center" timestamp="1584294035548">
+    <state width="1322" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584353629548" />
+    <state width="1322" height="184" key="GridCell.Tab.0.center" timestamp="1584353629548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584294035548" />
-    <state width="1322" height="184" key="GridCell.Tab.0.left" timestamp="1584294035548">
+    <state width="1322" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584353629548" />
+    <state width="1322" height="184" key="GridCell.Tab.0.left" timestamp="1584353629547">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584294035548" />
-    <state width="1322" height="184" key="GridCell.Tab.0.right" timestamp="1584294035549">
+    <state width="1322" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584353629547" />
+    <state width="1322" height="184" key="GridCell.Tab.0.right" timestamp="1584353629548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584294035549" />
+    <state width="1322" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584353629548" />
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor" timestamp="1584283244287">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584283244287" />
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584287579828">
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584350377748">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584287579828" />
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584350377748" />
     <state x="769" y="6" width="500" height="754" key="refactoring.ChangeSignatureDialog" timestamp="1584293480536">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

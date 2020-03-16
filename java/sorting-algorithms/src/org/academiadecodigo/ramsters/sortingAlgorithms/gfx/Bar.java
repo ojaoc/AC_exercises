@@ -19,7 +19,11 @@ public class Bar {
 
         int y = canvas.getRows() - item;
 
-        rectangle = new Rectangle(Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(item));
+        rectangle = new Rectangle(
+
+                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(item)
+
+        );
 
         rectangle.setColor(Color.BLUE);
 
@@ -27,9 +31,9 @@ public class Bar {
 
     }
 
-    public void replace() {
+    public void replace(int to) {
 
-        
+        rectangle.translate(to, 0);
 
     }
 

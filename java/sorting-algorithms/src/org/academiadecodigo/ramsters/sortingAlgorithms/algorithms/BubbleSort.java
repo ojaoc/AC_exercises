@@ -1,28 +1,48 @@
 package org.academiadecodigo.ramsters.sortingAlgorithms.algorithms;
 
+import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Bar;
+import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Grid;
+
 public class BubbleSort {
+
+    private Bar[] bars;
 
     private int[] sortedArr;
 
-    public BubbleSort(int[] items) {
+    public BubbleSort(int[] items, Bar[] bars) {
 
         sortedArr = items;
 
-        for (int i = 0; i < sortedArr.length - 1; i++) {
+        try {
 
-            for (int j = 0; j < sortedArr.length - 1 - i; j++) {
+            for (int i = 0; i < sortedArr.length - 1; i++) {
 
-                if (sortedArr[j] > sortedArr[j + 1]) {
+                for (int j = 0; j < sortedArr.length - 1 - i; j++) {
 
-                    int temp = sortedArr[j];
+                    Thread.sleep(1000);
 
-                    sortedArr[j] = sortedArr[j + 1];
+                    if (sortedArr[j] > sortedArr[j + 1]) {
 
-                    sortedArr[j + 1] = temp;
+                        bars[j].replace(Grid.CELL_SIZE);
+
+                        bars[j + 1].replace(-Grid.CELL_SIZE);
+
+                        int temp = sortedArr[j];
+
+                        sortedArr[j] = sortedArr[j + 1];
+
+                        sortedArr[j + 1] = temp;
+
+
+                    }
 
                 }
 
             }
+
+        } catch (InterruptedException ex) {
+
+            System.out.println(ex.getMessage());
 
         }
 

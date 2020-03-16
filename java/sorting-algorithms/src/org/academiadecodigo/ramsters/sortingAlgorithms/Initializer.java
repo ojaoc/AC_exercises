@@ -16,6 +16,8 @@ public class Initializer {
 
     private int[] items;
 
+    private Bar[] bars;
+
 
     public Initializer(int numberOfItems) {
 
@@ -29,7 +31,7 @@ public class Initializer {
 
         int currentCol = 0;
 
-        Bar[] bars = new Bar[numberOfItems];
+        bars = new Bar[numberOfItems];
 
         items = new int[numberOfItems];
 
@@ -51,7 +53,7 @@ public class Initializer {
 
             case BUBBLE_SORT:
 
-                BubbleSort bubbleSort = new BubbleSort(items);
+                BubbleSort bubbleSort = new BubbleSort(items, bars);
 
                 break;
 
