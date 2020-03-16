@@ -19,20 +19,19 @@ public class BubbleSort {
 
                 for (int j = 0; j < sortedArr.length - 1 - i; j++) {
 
-                    Thread.sleep(1000);
+                    Thread.sleep(100);
 
                     if (sortedArr[j] > sortedArr[j + 1]) {
 
-                        bars[j].replace(Grid.CELL_SIZE);
+                        bars[j].replace(sortedArr[j], sortedArr[j + 1]);
 
-                        bars[j + 1].replace(-Grid.CELL_SIZE);
+                        bars[j + 1].replace(sortedArr[j + 1], sortedArr[j]);
 
                         int temp = sortedArr[j];
 
                         sortedArr[j] = sortedArr[j + 1];
 
                         sortedArr[j + 1] = temp;
-
 
                     }
 

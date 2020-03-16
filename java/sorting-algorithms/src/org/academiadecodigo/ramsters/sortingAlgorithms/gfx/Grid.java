@@ -20,7 +20,7 @@ public class Grid {
         this.rows = rows;
         this.screen = new Rectangle(PADDING, PADDING, colToX(cols), rowToY(rows));
 
-        screen.setColor(Color.WHITE);
+        screen.setColor(Color.BLACK);
         screen.fill();
 
     }

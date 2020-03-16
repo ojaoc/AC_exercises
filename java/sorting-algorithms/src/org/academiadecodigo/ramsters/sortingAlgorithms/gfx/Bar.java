@@ -11,13 +11,19 @@ public class Bar {
 
     Canvas canvas;
 
+    int x;
+
+    int y;
+
     public Bar(int x, Canvas canvas) {
+
+        this.x = x;
 
         this.canvas = canvas;
 
         item = (int) (Math.ceil(Math.random() * canvas.getRows()));
 
-        int y = canvas.getRows() - item;
+        this.y = canvas.getRows() - item;
 
         rectangle = new Rectangle(
 
@@ -25,15 +31,25 @@ public class Bar {
 
         );
 
-        rectangle.setColor(Color.BLUE);
+        rectangle.setColor(Color.WHITE);
 
         rectangle.draw();
 
     }
 
-    public void replace(int to) {
+    public void replace(int from, int to) {
 
-        rectangle.translate(to, 0);
+        rectangle.delete();
+
+        rectangle = new Rectangle(
+
+                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y + (to - from)) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(to)
+
+        );
+
+        rectangle.setColor(Color.GREEN);
+
+        rectangle.fill();
 
     }
 
