@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.java" afterDir="false" />
@@ -49,6 +49,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -85,7 +86,12 @@
       <workItem from="1584287560532" duration="6463000" />
       <workItem from="1584297267351" duration="214000" />
       <workItem from="1584350376328" duration="9314000" />
-      <workItem from="1584363899089" duration="1862000" />
+      <workItem from="1584363899089" duration="2115000" />
+      <workItem from="1584367948765" duration="162000" />
+      <workItem from="1584368324020" duration="43000" />
+      <workItem from="1584370037185" duration="313000" />
+      <workItem from="1584370407496" duration="110000" />
+      <workItem from="1584374395165" duration="711000" />
     </task>
     <servers />
   </component>
@@ -97,30 +103,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584352287403" />
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1584365798595">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1584375104768">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584365798595" />
-    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1584365798595">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584375104768" />
+    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1584375104765">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584365798595" />
-    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1584365798594">
+    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584375104765" />
+    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1584375104763">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584365798594" />
-    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1584365798595">
+    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584375104763" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1584375104767">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584365798595" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584375104767" />
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor" timestamp="1584283244287">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584283244287" />
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584363914061">
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584374394495">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584363914061" />
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584374394495" />
     <state x="769" y="6" width="500" height="754" key="refactoring.ChangeSignatureDialog" timestamp="1584293480536">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

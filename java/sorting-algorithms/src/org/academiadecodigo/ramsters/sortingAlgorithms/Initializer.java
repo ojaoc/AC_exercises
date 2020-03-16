@@ -21,7 +21,7 @@ public class Initializer {
 
     public Initializer(int numberOfItems) {
 
-        this.canvas = new Canvas(numberOfItems, 70);
+        this.canvas = new Canvas(numberOfItems, 72);
 
         this.numberOfItems = numberOfItems;
 

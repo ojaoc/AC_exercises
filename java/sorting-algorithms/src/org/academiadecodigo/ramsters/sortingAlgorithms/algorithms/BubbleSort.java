@@ -19,7 +19,7 @@ public class BubbleSort {
 
                 for (int j = 0; j < sortedArr.length - 1 - i; j++) {
 
-                    Thread.sleep(3);
+                    Thread.sleep(1);
 
                     if (sortedArr[j] > sortedArr[j + 1]) {
 

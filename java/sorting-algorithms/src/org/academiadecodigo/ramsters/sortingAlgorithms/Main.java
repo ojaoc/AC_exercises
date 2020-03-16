@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Initializer initializer = new Initializer(130);
+        Initializer initializer = new Initializer(135);
 
         initializer.createBars();
 

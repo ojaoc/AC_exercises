@@ -37,15 +37,17 @@ public class Bar {
 
     }
 
-    public void replace(int from) {
+    public void replace(int newItem) {
 
-        this.y = canvas.getRows() - from;
+        this.item = newItem;
+
+        this.y = canvas.getRows() - item;
 
         rectangle.delete();
 
         rectangle = new Rectangle(
 
-                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(from)
+                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(item)
 
         );
 

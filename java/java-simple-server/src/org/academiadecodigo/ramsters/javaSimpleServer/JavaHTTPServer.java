@@ -6,144 +6,33 @@ import java.net.Socket;
 
 class JavaHTTPServer {
 
+    public static final int PORT = 8080;
+
     private ServerSocket serverSocket;
 
-    private Socket clientSocket;
+    JavaHTTPServer() {
 
-    private PrintWriter out;
-
-    private BufferedOutputStream bufferedOutputStream;
-
-    private BufferedReader in;
-
-    private FileInputStream fileInputStream;
-
-
-    JavaHTTPServer(int portNumber) {
+        Socket clientSocket;
 
         try {
 
-            serverSocket = new ServerSocket(portNumber);
+            serverSocket = new ServerSocket(PORT);
 
-            clientSocket = serverSocket.accept();
+            while (true) {
 
-            out = new PrintWriter(
+                clientSocket = serverSocket.accept();
 
-                    clientSocket.getOutputStream(),
+                Thread thread = new Thread(new Handler(clientSocket));
 
-                    true
-
-            );
-
-            bufferedOutputStream = new BufferedOutputStream(
-
-                    clientSocket.getOutputStream()
-
-            );
-
-            in = new BufferedReader(
-
-                    new InputStreamReader(
-
-                            clientSocket.getInputStream()
-
-                    )
-
-            );
-
-            switch (in.readLine()) {
-
-                case "GET / HTTP/1.1":
-
-                    out.println("HTTP/1.1 200\n");
-
-                    byte[] index = readFile("index.html");
-
-                    bufferedOutputStream.write(
-
-                            index,0, index.length
-
-                    );
-
-                    bufferedOutputStream.flush();
-
-                    break;
-
-                case "GET /swag HTTP/1.1":
-
-                    out.println("HTTP/1.1 200\n");
-
-                    byte[] swag = readFile("swag.html");
-
-                    bufferedOutputStream.write(
-
-                            swag, 0, swag.length
-
-                    );
-
-                    bufferedOutputStream.flush();
-
-                    break;
-
-                default:
-
-                    out.println("HTTP/1.1 404 Resource Unavailable\n");
-
-                    byte[] four0four = readFile("404.html");
-
-                    bufferedOutputStream.write(
-
-                            four0four, 0, four0four.length
-
-                    );
-
-                    bufferedOutputStream.flush();
-
-                    break;
+                thread.start();
 
             }
 
-            disconnect();
-
         } catch (IOException ex) {
 
             System.out.println(ex.getMessage());
 
         }
-
-    }
-
-    private byte[] readFile(String filePath) {
-
-        try {
-
-            fileInputStream = new FileInputStream(filePath);
-
-            return fileInputStream.readAllBytes();
-
-        } catch (IOException ex) {
-
-            System.out.println(ex.getMessage());
-
-        }
-
-        return new byte[0];
-
-    }
-
-    private void disconnect() throws IOException {
-
-        serverSocket.close();
-
-        clientSocket.close();
-
-        out.close();
-
-        in.close();
-
-        fileInputStream.close();
-
-        bufferedOutputStream.close();
 
     }
 
