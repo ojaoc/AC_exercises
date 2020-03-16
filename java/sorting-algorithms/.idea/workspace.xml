@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/algorithms/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Grid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,8 @@
       <workItem from="1584282755478" duration="1401000" />
       <workItem from="1584287560532" duration="6463000" />
       <workItem from="1584297267351" duration="214000" />
-      <workItem from="1584350376328" duration="7638000" />
+      <workItem from="1584350376328" duration="9314000" />
+      <workItem from="1584363899089" duration="1862000" />
     </task>
     <servers />
   </component>
@@ -94,30 +97,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584352287403" />
-    <state width="1322" height="184" key="GridCell.Tab.0.bottom" timestamp="1584358159474">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1584365798595">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584358159474" />
-    <state width="1322" height="184" key="GridCell.Tab.0.center" timestamp="1584358159473">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584365798595" />
+    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1584365798595">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584358159473" />
-    <state width="1322" height="184" key="GridCell.Tab.0.left" timestamp="1584358159472">
+    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584365798595" />
+    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1584365798594">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584358159472" />
-    <state width="1322" height="184" key="GridCell.Tab.0.right" timestamp="1584358159474">
+    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584365798594" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1584365798595">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584358159474" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584365798595" />
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor" timestamp="1584283244287">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584283244287" />
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584350377748">
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584363914061">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584350377748" />
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584363914061" />
     <state x="769" y="6" width="500" height="754" key="refactoring.ChangeSignatureDialog" timestamp="1584293480536">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

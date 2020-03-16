@@ -19,19 +19,19 @@ public class BubbleSort {
 
                 for (int j = 0; j < sortedArr.length - 1 - i; j++) {
 
-                    Thread.sleep(100);
+                    Thread.sleep(3);
 
                     if (sortedArr[j] > sortedArr[j + 1]) {
-
-                        bars[j].replace(sortedArr[j], sortedArr[j + 1]);
-
-                        bars[j + 1].replace(sortedArr[j + 1], sortedArr[j]);
 
                         int temp = sortedArr[j];
 
                         sortedArr[j] = sortedArr[j + 1];
 
                         sortedArr[j + 1] = temp;
+
+                        bars[j].replace(sortedArr[j]);
+
+                        bars[j + 1].replace(sortedArr[j + 1]);
 
                     }
 
@@ -46,7 +46,9 @@ public class BubbleSort {
         }
 
         for (int item : sortedArr) {
+
             System.out.println(item);
+
         }
 
     }
