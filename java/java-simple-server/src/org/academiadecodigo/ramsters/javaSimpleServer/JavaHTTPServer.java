@@ -8,9 +8,9 @@ class JavaHTTPServer {
 
     public static final int PORT = 8080;
 
-    private ServerSocket serverSocket;
-
     JavaHTTPServer() {
+
+        ServerSocket serverSocket;
 
         Socket clientSocket;
 

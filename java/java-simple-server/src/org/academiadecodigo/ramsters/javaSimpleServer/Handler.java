@@ -86,11 +86,19 @@ public class Handler implements Runnable {
 
                 case "GET /virus HTTP/1.1":
 
-                    while (true) {
+                    out.println("HTTP/1.1 200\n");
 
-                        out.println("HTTP/1.1 200\n");
+                    byte[] virus = readFile("virus.jpg");
 
-                    }
+                    bufferedOutputStream.write(
+
+                            virus, 0, virus.length
+
+                    );
+
+                    bufferedOutputStream.flush();
+
+                    break;
 
                 default:
 
@@ -140,8 +148,6 @@ public class Handler implements Runnable {
 
     private void disconnect() throws IOException {
 
-        clientSocket.close();
-
         out.close();
 
         in.close();
@@ -149,6 +155,8 @@ public class Handler implements Runnable {
         fileInputStream.close();
 
         bufferedOutputStream.close();
+
+        clientSocket.close();
 
     }
 

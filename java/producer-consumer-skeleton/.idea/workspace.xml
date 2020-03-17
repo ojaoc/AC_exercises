@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="">
+    <list default="true" id="1c3881c2-2aa3-486f-86d8-4c7cd4a4455d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Handler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1ZAXD7TVSDwdlM7d2BSpxjaRM6K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1ZG7cEK4pavchsYM9G9tJAIZszE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,26 +28,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../map-editor" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.ramsters.sortingAlgorithms.Main" />
-      <module name="sorting-algorithms" />
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.bootcamp.concurrency.Main" />
+      <module name="producer-consumer-skeleton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.academiadecodigo.ramsters.sortingAlgorithms.*" />
+          <option name="PATTERN" value="org.academiadecodigo.bootcamp.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,22 +61,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="" />
-      <created>1584282749854</created>
+      <changelist id="1c3881c2-2aa3-486f-86d8-4c7cd4a4455d" name="Default Changelist" comment="" />
+      <created>1584453654234</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584282749854</updated>
-      <workItem from="1584282755478" duration="1401000" />
-      <workItem from="1584287560532" duration="6463000" />
-      <workItem from="1584297267351" duration="214000" />
-      <workItem from="1584350376328" duration="9314000" />
-      <workItem from="1584363899089" duration="2115000" />
-      <workItem from="1584367948765" duration="162000" />
-      <workItem from="1584368324020" duration="43000" />
-      <workItem from="1584370037185" duration="313000" />
-      <workItem from="1584370407496" duration="110000" />
-      <workItem from="1584374395165" duration="711000" />
-      <workItem from="1584445554170" duration="42000" />
+      <updated>1584453654234</updated>
+      <workItem from="1584453660715" duration="6527000" />
     </task>
     <servers />
   </component>
@@ -99,37 +74,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl" timestamp="1584352287403">
+    <state width="1322" height="390" key="GridCell.Tab.0.bottom" timestamp="1584459792498">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584352287403" />
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1584445595404">
+    <state width="1322" height="390" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584459792498" />
+    <state width="1322" height="390" key="GridCell.Tab.0.center" timestamp="1584459792497">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584445595404" />
-    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1584445595402">
+    <state width="1322" height="390" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584459792497" />
+    <state width="1322" height="390" key="GridCell.Tab.0.left" timestamp="1584459792497">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584445595402" />
-    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1584445595402">
+    <state width="1322" height="390" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584459792497" />
+    <state width="1322" height="390" key="GridCell.Tab.0.right" timestamp="1584459792498">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584445595402" />
-    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1584445595403">
+    <state width="1322" height="390" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584459792498" />
+    <state width="1322" height="231" key="GridCell.Tab.1.bottom" timestamp="1584457255901">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584445595403" />
-    <state x="166" y="0" width="1024" height="766" key="SettingsEditor" timestamp="1584283244287">
+    <state width="1322" height="231" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584457255901" />
+    <state width="1322" height="231" key="GridCell.Tab.1.center" timestamp="1584457255900">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="166" y="0" width="1024" height="766" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584283244287" />
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584445553935">
+    <state width="1322" height="231" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584457255900" />
+    <state width="1322" height="231" key="GridCell.Tab.1.left" timestamp="1584457255900">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584445553935" />
-    <state x="769" y="6" width="500" height="754" key="refactoring.ChangeSignatureDialog" timestamp="1584293480536">
+    <state width="1322" height="231" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584457255900" />
+    <state width="1322" height="231" key="GridCell.Tab.1.right" timestamp="1584457255900">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="769" y="6" width="500" height="754" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1584293480536" />
+    <state width="1322" height="231" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584457255900" />
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584453752605">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584453752605" />
+    <state x="347" y="169" key="run.anything.popup" timestamp="1584453934963">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="347" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584453934963" />
   </component>
 </project>
