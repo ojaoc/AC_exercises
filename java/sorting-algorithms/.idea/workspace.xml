@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +103,7 @@
       <workItem from="1584370407496" duration="110000" />
       <workItem from="1584374395165" duration="711000" />
       <workItem from="1584445554170" duration="42000" />
+      <workItem from="1585144020377" duration="1260000" />
     </task>
     <servers />
   </component>
@@ -103,30 +115,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584352287403" />
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1584445595404">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1585145280248">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584445595404" />
-    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1584445595402">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585145280248" />
+    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1585145280247">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584445595402" />
-    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1584445595402">
+    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585145280247" />
+    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1585145280245">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584445595402" />
-    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1584445595403">
+    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585145280245" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1585145280248">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584445595403" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585145280248" />
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor" timestamp="1584283244287">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584283244287" />
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584445553935">
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1585144020227">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584445553935" />
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1585144020227" />
     <state x="769" y="6" width="500" height="754" key="refactoring.ChangeSignatureDialog" timestamp="1584293480536">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

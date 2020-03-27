@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c3881c2-2aa3-486f-86d8-4c7cd4a4455d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584453654234</updated>
-      <workItem from="1584453660715" duration="6527000" />
+      <workItem from="1584453660715" duration="9255000" />
     </task>
     <servers />
   </component>
@@ -74,38 +75,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="390" key="GridCell.Tab.0.bottom" timestamp="1584459792498">
+    <state width="1322" height="231" key="GridCell.Tab.0.bottom" timestamp="1584467269012">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="390" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584459792498" />
-    <state width="1322" height="390" key="GridCell.Tab.0.center" timestamp="1584459792497">
+    <state width="1322" height="231" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584467269012" />
+    <state width="1322" height="231" key="GridCell.Tab.0.center" timestamp="1584467269010">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="390" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584459792497" />
-    <state width="1322" height="390" key="GridCell.Tab.0.left" timestamp="1584459792497">
+    <state width="1322" height="231" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584467269010" />
+    <state width="1322" height="231" key="GridCell.Tab.0.left" timestamp="1584467269009">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="390" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584459792497" />
-    <state width="1322" height="390" key="GridCell.Tab.0.right" timestamp="1584459792498">
+    <state width="1322" height="231" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584467269009" />
+    <state width="1322" height="231" key="GridCell.Tab.0.right" timestamp="1584467269011">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="390" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584459792498" />
-    <state width="1322" height="231" key="GridCell.Tab.1.bottom" timestamp="1584457255901">
+    <state width="1322" height="231" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584467269011" />
+    <state width="1322" height="231" key="GridCell.Tab.1.bottom" timestamp="1584467269014">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="231" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584457255901" />
-    <state width="1322" height="231" key="GridCell.Tab.1.center" timestamp="1584457255900">
+    <state width="1322" height="231" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584467269014" />
+    <state width="1322" height="231" key="GridCell.Tab.1.center" timestamp="1584467269013">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="231" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584457255900" />
-    <state width="1322" height="231" key="GridCell.Tab.1.left" timestamp="1584457255900">
+    <state width="1322" height="231" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584467269013" />
+    <state width="1322" height="231" key="GridCell.Tab.1.left" timestamp="1584467269012">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="231" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584457255900" />
-    <state width="1322" height="231" key="GridCell.Tab.1.right" timestamp="1584457255900">
+    <state width="1322" height="231" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584467269012" />
+    <state width="1322" height="231" key="GridCell.Tab.1.right" timestamp="1584467269013">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="231" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584457255900" />
+    <state width="1322" height="231" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584467269013" />
     <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584453752605">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

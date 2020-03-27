@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea1ea9ad-a9ae-48d2-a80b-6d275fa94ab4" name="Default Changelist" comment="">
+    <list default="true" id="8853247e-5339-4920-891f-c8abf5794c87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../map-editor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/TCPSocket/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/TCPSocket/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/TCPSocket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/TCPSocket/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,14 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1Z4csc0U0audj8UrsFsn72V6VHR" />
+  <component name="ProjectId" id="1ZGrFsKlVkVrWHPPauNILahbohY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,7 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -49,15 +51,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.ramsters.TCPSocket.Main" />
       <module name="TCP-Socket" />
-      <option name="PROGRAM_PARAMETERS" value="192.168.1.10 8080" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 8080" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.academiadecodigo.ramsters.TCPSocket.*" />
@@ -79,54 +80,61 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea1ea9ad-a9ae-48d2-a80b-6d275fa94ab4" name="Default Changelist" comment="" />
-      <created>1584011085453</created>
+      <changelist id="8853247e-5339-4920-891f-c8abf5794c87" name="Default Changelist" comment="" />
+      <created>1584476170554</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584011085453</updated>
-      <workItem from="1584011089792" duration="5496000" />
-      <workItem from="1584102016152" duration="1755000" />
-      <workItem from="1584105586971" duration="615000" />
-      <workItem from="1584111080126" duration="642000" />
+      <updated>1584476170554</updated>
+      <workItem from="1584476173438" duration="2322000" />
+      <workItem from="1584482798142" duration="5362000" />
+      <workItem from="1584524643178" duration="3988000" />
+      <workItem from="1584541581014" duration="251000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="807" y="142" width="424" height="482" key="FileChooserDialogImpl" timestamp="1584105600436">
+    <state x="141" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584476274156">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="807" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584105600436" />
-    <state x="690" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584105587597">
+    <state x="141" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1584476274156" />
+    <state width="1322" height="185" key="GridCell.Tab.0.bottom" timestamp="1584530724887">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="690" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584105587597" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1322" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584530724887" />
+    <state width="1322" height="185" key="GridCell.Tab.0.center" timestamp="1584530724883">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584530724883" />
+    <state width="1322" height="185" key="GridCell.Tab.0.left" timestamp="1584530724882">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584530724882" />
+    <state width="1322" height="185" key="GridCell.Tab.0.right" timestamp="1584530724886">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584530724886" />
+    <state width="1322" height="231" key="GridCell.Tab.1.bottom" timestamp="1584477992823">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="231" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584477992823" />
+    <state width="1322" height="231" key="GridCell.Tab.1.center" timestamp="1584477992822">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="231" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584477992822" />
+    <state width="1322" height="231" key="GridCell.Tab.1.left" timestamp="1584477992822">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="231" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584477992822" />
+    <state width="1322" height="231" key="GridCell.Tab.1.right" timestamp="1584477992823">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="231" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584477992823" />
+    <state x="680" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584524642376">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="680" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584524642376" />
   </component>
 </project>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1c094b2-d1bd-436d-950c-ba60da1ff8b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/out/production/TCP-Socket/org/academiadecodigo/ramsters/TCPSocket/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Socket/src/org/academiadecodigo/ramsters/TCPSocket/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/out/production/java-simple-server/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-simple-server/src/org/academiadecodigo/ramsters/javaSimpleServer/JavaHTTPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-skeleton/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-skeleton/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-skeleton/src/org/academiadecodigo/bootcamp/containers/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-skeleton/src/org/academiadecodigo/bootcamp/containers/LinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-list-skeleton/src/org/academiadecodigo/bootcamp/containers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/out/production/producer-consumer-skeleton/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-consumer-skeleton/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sorting-algorithms/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ZiWJzA18dKgeaaeNs6zcAwhWDp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.LinkedListTest">
+    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.containers.IteratorTest" />
+      <module name="functional-linked-list-skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.academiadecodigo.containers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.containers.LinkedListTest" />
+      <module name="functional-linked-list-skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.academiadecodigo.containers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeSafetyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.containers.TypeSafetyExample" />
+      <module name="functional-linked-list-skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.academiadecodigo.containers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeUnsafetyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.containers.TypeUnsafetyExample" />
+      <module name="functional-linked-list-skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.academiadecodigo.containers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LinkedListTest" />
+        <item itemvalue="Application.IteratorTest" />
+        <item itemvalue="Application.TypeSafetyExample" />
+        <item itemvalue="Application.TypeUnsafetyExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1c094b2-d1bd-436d-950c-ba60da1ff8b1" name="Default Changelist" comment="" />
+      <created>1585322327350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585322327350</updated>
+      <workItem from="1585322332695" duration="5002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1322" height="185" key="GridCell.Tab.0.bottom" timestamp="1585327398707">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585327398707" />
+    <state width="1322" height="185" key="GridCell.Tab.0.center" timestamp="1585327398707">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585327398707" />
+    <state width="1322" height="185" key="GridCell.Tab.0.left" timestamp="1585327398707">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585327398707" />
+    <state width="1322" height="185" key="GridCell.Tab.0.right" timestamp="1585327398707">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585327398707" />
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1585322335694">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="353" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1585322335694" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/academiadecodigo/containers/TypeUnsafetyExample.java</url>
+          <line>4</line>
+          <properties class="org.academiadecodigo.containers.TypeUnsafetyExample" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

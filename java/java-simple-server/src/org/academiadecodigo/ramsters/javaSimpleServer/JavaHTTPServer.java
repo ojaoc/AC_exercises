@@ -3,6 +3,8 @@ package org.academiadecodigo.ramsters.javaSimpleServer;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 class JavaHTTPServer {
 
@@ -18,15 +20,23 @@ class JavaHTTPServer {
 
             serverSocket = new ServerSocket(PORT);
 
-            while (true) {
+            ExecutorService cachedPool = Executors.newCachedThreadPool();
+
+            for (int i = 0; i < 10000; i++) {
 
                 clientSocket = serverSocket.accept();
 
-                Thread thread = new Thread(new Handler(clientSocket));
+                System.out.println("CONNECTION WITH " + clientSocket.getInetAddress() + " NUMBER " + i);
 
-                thread.start();
+                cachedPool.submit(new Handler(clientSocket));
+
+                //Thread thread = new Thread(new Handler(clientSocket));
+
+                //thread.start();
 
             }
+
+            cachedPool.shutdownNow();
 
         } catch (IOException ex) {
 

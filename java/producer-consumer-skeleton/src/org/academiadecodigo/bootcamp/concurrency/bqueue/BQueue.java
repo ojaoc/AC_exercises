@@ -49,6 +49,8 @@ public class BQueue<T> {
 
             }
 
+            System.out.println("ELEMENT " + data + " HAS BEEN INSERTED INSIDE THE QUEUE.");
+
             linkedList.offer(data);
 
             notifyAll();
@@ -81,6 +83,8 @@ public class BQueue<T> {
             }
 
             T result = linkedList.poll();
+
+            System.out.println("ELEMENT " + result + " HAS BEEN REMOVED.");
 
             notifyAll();
 

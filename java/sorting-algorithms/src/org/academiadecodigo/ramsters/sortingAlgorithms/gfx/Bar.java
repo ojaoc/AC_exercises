@@ -3,6 +3,8 @@ package org.academiadecodigo.ramsters.sortingAlgorithms.gfx;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
+import java.util.Timer;
+
 public class Bar {
 
     int item;
@@ -62,5 +64,6 @@ public class Bar {
         return item;
 
     }
+
 
 }

@@ -6,69 +6,34 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 class Server {
-
-    private ServerSocket serverSocket;
-
-    private Socket clientSocket;
-
-    private PrintWriter out;
-
-    private BufferedReader in;
-
 
     Server(Integer portNumber) {
 
         try {
 
-            serverSocket = new ServerSocket(portNumber);
+            ServerSocket serverSocket = new ServerSocket(portNumber);
 
-            clientSocket = serverSocket.accept();
+            ExecutorService cachedPool = Executors.newCachedThreadPool();
 
-            out = new PrintWriter(
+            while (true) {
 
-                    clientSocket.getOutputStream(),
+                Socket clientSocket = serverSocket.accept();
 
-                    true
+                cachedPool.submit(new Handler(clientSocket));
 
-            );
+                cachedPool.shutdown();
 
-            in = new BufferedReader(
-
-                    new InputStreamReader(
-
-                            clientSocket.getInputStream()
-
-                    )
-
-            );
-
-            System.out.println("Connected to " + clientSocket.getInetAddress());
-
-            System.out.println(in.readLine());
-
-            out.println("I have received your message.");
-
-            disconnect();
+            }
 
         } catch (IOException ex) {
 
-            System.out.println(ex.getMessage());
+            ex.printStackTrace();
 
         }
-
-    }
-
-    private void disconnect() throws IOException {
-
-        in.close();
-
-        out.close();
-
-        serverSocket.close();
-
-        clientSocket.close();
 
     }
 

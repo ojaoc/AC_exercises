@@ -26,7 +26,7 @@ public class Consumer implements Runnable {
 
         for (int i = 0; i < elementNum; i++) {
 
-            System.out.println(queue.poll());
+            queue.poll();
 
         }
 
