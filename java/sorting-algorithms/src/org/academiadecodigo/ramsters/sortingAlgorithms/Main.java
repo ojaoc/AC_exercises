@@ -7,11 +7,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Initializer initializer = new Initializer(135);
+        Initializer initializer = new Initializer(800);
 
         initializer.createBars();
 
-        initializer.sort(Algorithms.BUBBLE_SORT);
+        //initializer.sort(Algorithms.BUBBLE_SORT);
+
+        //initializer.sort(Algorithms.INSERTION_SORT);
+
+        initializer.sort(Algorithms.MERGE_SORT);
 
     }
 

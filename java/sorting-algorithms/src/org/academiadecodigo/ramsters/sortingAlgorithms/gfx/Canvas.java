@@ -4,8 +4,6 @@ public class Canvas {
 
     private Grid grid;
 
-    private Bar[] bars;
-
     public Canvas(int cols, int rows) {
 
         this.grid = new Grid(cols, rows);
@@ -33,12 +31,6 @@ public class Canvas {
     public int getRows() {
 
         return grid.getRows();
-
-    }
-
-    public void setBars(Bar[] bars) {
-
-        this.bars = bars;
 
     }
 

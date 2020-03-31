@@ -7,7 +7,13 @@ public class Grid {
 
     public static final int PADDING = 10;
 
-    public static final int CELL_SIZE = 10;
+    //public static final int CELL_SIZE = 10;
+
+    public static int CELL_SIZE;
+
+    public static final int SCREEN_WIDTH = 1600;
+
+    public static final int SCREEN_HEIGHT = 720;
 
     private int cols;
     private int rows;
@@ -18,7 +24,9 @@ public class Grid {
 
         this.cols = cols;
         this.rows = rows;
-        this.screen = new Rectangle(PADDING, PADDING, colToX(cols), rowToY(rows));
+        CELL_SIZE = SCREEN_WIDTH / cols;
+
+        this.screen = new Rectangle(PADDING, PADDING, SCREEN_WIDTH, SCREEN_HEIGHT);
 
         screen.setColor(Color.BLACK);
         screen.fill();
@@ -69,7 +77,7 @@ public class Grid {
 
     public static int rowToY(int row) {
 
-        return row * CELL_SIZE;
+        return row * 10;
 
     }
 

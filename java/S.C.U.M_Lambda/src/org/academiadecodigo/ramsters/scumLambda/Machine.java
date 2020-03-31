@@ -14,10 +14,4 @@ public class Machine<T> {
 
     }
 
-    public T multiOperands(ParameterHandler<T> parameterHandler, MultiOperation<T> multiOperation) {
-
-
-
-    }
-
 }

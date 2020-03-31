@@ -1,37 +1,31 @@
 package org.academiadecodigo.ramsters.sortingAlgorithms.algorithms;
 
 import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Bar;
-import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Grid;
 
-public class BubbleSort {
+public class BubbleSort implements Sorter {
 
-    private Bar[] bars;
-
-    private int[] sortedArr;
-
-    public BubbleSort(int[] items, Bar[] bars) {
-
-        sortedArr = items;
+    @Override
+    public void sort(int[] items, Bar[] bars) {
 
         try {
 
-            for (int i = 0; i < sortedArr.length - 1; i++) {
+            for (int i = 0; i < items.length - 1; i++) {
 
-                for (int j = 0; j < sortedArr.length - 1 - i; j++) {
+                for (int j = 0; j < items.length - 1 - i; j++) {
 
                     Thread.sleep(1);
 
-                    if (sortedArr[j] > sortedArr[j + 1]) {
+                    if (items[j] > items[j + 1]) {
 
-                        int temp = sortedArr[j];
+                        int temp = items[j];
 
-                        sortedArr[j] = sortedArr[j + 1];
+                        items[j] = items[j + 1];
 
-                        sortedArr[j + 1] = temp;
+                        items[j + 1] = temp;
 
-                        bars[j].replace(sortedArr[j]);
+                        bars[j].replace(items[j]);
 
-                        bars[j + 1].replace(sortedArr[j + 1]);
+                        bars[j + 1].replace(items[j + 1]);
 
                     }
 
@@ -45,7 +39,7 @@ public class BubbleSort {
 
         }
 
-        for (int item : sortedArr) {
+        for (int item : items) {
 
             System.out.println(item);
 

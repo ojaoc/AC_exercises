@@ -2,6 +2,8 @@ package org.academiadecodigo.ramsters.sortingAlgorithms;
 
 import org.academiadecodigo.ramsters.sortingAlgorithms.algorithms.Algorithms;
 import org.academiadecodigo.ramsters.sortingAlgorithms.algorithms.BubbleSort;
+import org.academiadecodigo.ramsters.sortingAlgorithms.algorithms.InsertionSort;
+import org.academiadecodigo.ramsters.sortingAlgorithms.algorithms.MergeSort;
 import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Bar;
 import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Canvas;
 import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Grid;
@@ -53,12 +55,26 @@ public class Initializer {
 
             case BUBBLE_SORT:
 
-                BubbleSort bubbleSort = new BubbleSort(items, bars);
+                new BubbleSort().sort(items, bars);
+
+                break;
+
+            case INSERTION_SORT:
+
+                new InsertionSort().sort(items, bars);
+
+                break;
+
+            case MERGE_SORT:
+
+                new MergeSort().sort(items, bars);
 
                 break;
 
         }
 
     }
+
+
 
 }
