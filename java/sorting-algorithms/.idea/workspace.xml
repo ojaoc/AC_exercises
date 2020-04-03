@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sorting-algorithms/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Grid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/ramsters/sortingAlgorithms/gfx/Grid.java" afterDir="false" />
-    </list>
+    <list default="true" id="e9285fa8-14a8-409b-8be5-971e730f7fca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +93,7 @@
       <workItem from="1585488130717" duration="4611000" />
       <workItem from="1585500430895" duration="1106000" />
       <workItem from="1585678752869" duration="1328000" />
-      <workItem from="1585917522281" duration="2463000" />
+      <workItem from="1585917522281" duration="2616000" />
     </task>
     <servers />
   </component>
@@ -116,22 +109,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584352287403" />
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1585920273445">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1585920312676">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585920273445" />
-    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1585920273445">
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585920312676" />
+    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1585920312675">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585920273445" />
-    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1585920273444">
+    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585920312675" />
+    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1585920312675">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585920273444" />
-    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1585920273445">
+    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585920312675" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1585920312676">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585920273445" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585920312676" />
     <state width="1322" height="231" key="GridCell.Tab.1.bottom" timestamp="1585680080868">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
