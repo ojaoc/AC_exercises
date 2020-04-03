@@ -3,17 +3,21 @@ package org.academiadecodigo.ramsters.sortingAlgorithms.gfx;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
+import java.util.Map;
+
 public class Grid {
 
-    public static final int PADDING = 10;
+    public static final double PADDING = 10;
 
     //public static final int CELL_SIZE = 10;
 
-    public static int CELL_SIZE;
+    public static double WIDTH_UNIT;
 
-    public static final int SCREEN_WIDTH = 1600;
+    public static double HEIGHT_UNIT;
 
-    public static final int SCREEN_HEIGHT = 720;
+    public static final double SCREEN_WIDTH = 1340;
+
+    public static final double SCREEN_HEIGHT = 720;
 
     private int cols;
     private int rows;
@@ -24,7 +28,8 @@ public class Grid {
 
         this.cols = cols;
         this.rows = rows;
-        CELL_SIZE = SCREEN_WIDTH / cols;
+        WIDTH_UNIT = Math.round(SCREEN_WIDTH / cols);
+        HEIGHT_UNIT = Math.round(SCREEN_HEIGHT / rows);
 
         this.screen = new Rectangle(PADDING, PADDING, SCREEN_WIDTH, SCREEN_HEIGHT);
 
@@ -57,27 +62,15 @@ public class Grid {
 
     }
 
-    public int getX() {
+    public static double colToX(int col) {
 
-        return screen.getX();
-
-    }
-
-    public int getY() {
-
-        return screen.getY();
+        return col * WIDTH_UNIT;
 
     }
 
-    public static int colToX(int col) {
+    public static double rowToY(int row) {
 
-        return col * CELL_SIZE;
-
-    }
-
-    public static int rowToY(int row) {
-
-        return row * 10;
+        return row * HEIGHT_UNIT;
 
     }
 

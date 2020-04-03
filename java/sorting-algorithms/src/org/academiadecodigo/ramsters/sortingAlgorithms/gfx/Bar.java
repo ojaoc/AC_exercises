@@ -3,8 +3,6 @@ package org.academiadecodigo.ramsters.sortingAlgorithms.gfx;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
-import java.util.Timer;
-
 public class Bar {
 
     int item;
@@ -29,7 +27,7 @@ public class Bar {
 
         rectangle = new Rectangle(
 
-                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(item)
+                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.WIDTH_UNIT, Grid.rowToY(item)
 
         );
 
@@ -49,7 +47,7 @@ public class Bar {
 
         rectangle = new Rectangle(
 
-                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.CELL_SIZE, Grid.rowToY(item)
+                Grid.colToX(x) + Grid.PADDING, Grid.rowToY(y) + Grid.PADDING, Grid.WIDTH_UNIT, Grid.rowToY(item)
 
         );
 
