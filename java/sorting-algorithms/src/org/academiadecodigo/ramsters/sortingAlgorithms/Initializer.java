@@ -10,6 +10,8 @@ import org.academiadecodigo.ramsters.sortingAlgorithms.gfx.Grid;
 
 import java.security.AlgorithmConstraints;
 
+import static org.academiadecodigo.ramsters.sortingAlgorithms.Main.SCREEN_HEIGHT;
+
 public class Initializer {
 
     private Canvas canvas;
@@ -23,7 +25,7 @@ public class Initializer {
 
     public Initializer(int numberOfItems) {
 
-        this.canvas = new Canvas(numberOfItems, 72);
+        this.canvas = new Canvas(numberOfItems, (int) SCREEN_HEIGHT / 2);
 
         this.numberOfItems = numberOfItems;
 

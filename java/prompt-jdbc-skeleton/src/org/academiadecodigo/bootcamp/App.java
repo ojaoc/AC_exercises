@@ -4,14 +4,17 @@ import org.academiadecodigo.bootcamp.controller.LoginController;
 import org.academiadecodigo.bootcamp.controller.MainController;
 import org.academiadecodigo.bootcamp.controller.UserDetailsController;
 import org.academiadecodigo.bootcamp.controller.UserListController;
-import org.academiadecodigo.bootcamp.model.User;
+import org.academiadecodigo.bootcamp.persistence.ConnectionManager;
+import org.academiadecodigo.bootcamp.service.JdbcUserService;
 import org.academiadecodigo.bootcamp.service.MockUserService;
 import org.academiadecodigo.bootcamp.service.UserService;
-import org.academiadecodigo.bootcamp.utils.Security;
 import org.academiadecodigo.bootcamp.view.LoginView;
 import org.academiadecodigo.bootcamp.view.MainView;
 import org.academiadecodigo.bootcamp.view.UserDetailsView;
 import org.academiadecodigo.bootcamp.view.UserListView;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class App {
 
@@ -27,18 +30,37 @@ public class App {
         UserDetailsView userDetailsView = new UserDetailsView();
         Prompt prompt = new Prompt(System.in, System.out);
 
-        UserService userService = new MockUserService();
+        UserService jdbcUserService = null;
+
+        try {
+
+            DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+
+            ConnectionManager connectionManager = new ConnectionManager();
+
+            jdbcUserService = new JdbcUserService(connectionManager.getConnection());
+
+
+        } catch (SQLException e) {
+
+            e.printStackTrace();
+
+        }
+
+
+
+        /* UserService userService = new MockUserService();
         userService.add(new User("rui", "ferrao@academiadecodigo.org", Security.getHash("academiadecodigo"),
                 "Rui", "Ferrão", "912345678"));
         userService.add(new User("faustino", "faustino@academiadecodigo.org", Security.getHash("academiadecodigo"),
                 "João", "Faustino", "966666666"));
         userService.add(new User("audrey", "audrey@academiadecodigo.org", Security.getHash("academiadecodigo"),
-                "Audrey", "Lopes", "934567890"));
+                "Audrey", "Lopes", "934567890")); */
 
         // Wire login controller and view
         loginView.setPrompt(prompt);
         loginView.setController(loginController);
-        loginController.setUserService(userService);
+        loginController.setUserService(jdbcUserService);
         loginController.setView(loginView);
         loginController.setNextController(mainController);
 
@@ -52,13 +74,13 @@ public class App {
         // Wire userList controller and view
         userListView.setPrompt(prompt);
         userListView.setController(userListController);
-        userListController.setUserService(userService);
+        userListController.setUserService(jdbcUserService);
         userListController.setView(userListView);
 
         // Wire userDetails controller and view
         userDetailsView.setPrompt(prompt);
         userDetailsView.setController(userDetailsController);
-        userDetailsController.setUserService(userService);
+        userDetailsController.setUserService(jdbcUserService);
         userDetailsController.setView(userDetailsView);
 
 

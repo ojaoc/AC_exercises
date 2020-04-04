@@ -5,6 +5,9 @@ import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
 import java.util.Map;
 
+import static org.academiadecodigo.ramsters.sortingAlgorithms.Main.SCREEN_HEIGHT;
+import static org.academiadecodigo.ramsters.sortingAlgorithms.Main.SCREEN_WIDTH;
+
 public class Grid {
 
     public static final double PADDING = 10;
@@ -15,9 +18,6 @@ public class Grid {
 
     public static double HEIGHT_UNIT;
 
-    public static final double SCREEN_WIDTH = 1340;
-
-    public static final double SCREEN_HEIGHT = 720;
 
     private int cols;
     private int rows;
@@ -28,8 +28,8 @@ public class Grid {
 
         this.cols = cols;
         this.rows = rows;
-        WIDTH_UNIT = Math.round(SCREEN_WIDTH / cols);
-        HEIGHT_UNIT = Math.round(SCREEN_HEIGHT / rows);
+        WIDTH_UNIT = SCREEN_WIDTH / cols;
+        HEIGHT_UNIT = SCREEN_HEIGHT / rows;
 
         this.screen = new Rectangle(PADDING, PADDING, SCREEN_WIDTH, SCREEN_HEIGHT);
 
