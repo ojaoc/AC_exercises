@@ -1,0 +1,180 @@
+
+-------
+05/04/2020 13:04:41
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/05/2020 13:05:03
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/23/2020 13:23:26
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/24/2020 13:24:21
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/25/2020 13:25:18
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/28/2020 13:28:43
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/31/2020 13:31:02
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/33/2020 13:33:42
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/35/2020 13:35:48
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 
+
+-------
+05/51/2020 13:51:40
+-------
+
+DROP DATABASE IF EXISTS ac 
+CREATE DATABASE ac 
+USE ac 
+CREATE TABLE user(
+  id integer AUTO_INCREMENT,
+  username CHAR(64),
+  password CHAR(64),
+  email CHAR(64),
+  firstname CHAR(64),
+  lastname CHAR(64),
+  phone CHAR(64),
+  primary key (id)
+) 

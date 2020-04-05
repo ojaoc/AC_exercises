@@ -4,11 +4,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+
 public class ConnectionManager {
 
     private Connection connection = null;
 
-    private String dbURL = "jdbc:mysql://localhost/ac";
+    private String dbURL = "jdbc:mysql://localhost:3306/ac?serverTimezone=UTC";
 
     public Connection getConnection() throws SQLException {
 

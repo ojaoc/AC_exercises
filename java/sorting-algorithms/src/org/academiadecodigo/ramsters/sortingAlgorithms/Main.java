@@ -17,9 +17,9 @@ public class Main {
 
         //initializer.sort(Algorithms.BUBBLE_SORT);
 
-        //initializer.sort(Algorithms.INSERTION_SORT);
+        initializer.sort(Algorithms.INSERTION_SORT);
 
-        initializer.sort(Algorithms.MERGE_SORT);
+        //initializer.sort(Algorithms.MERGE_SORT);
 
     }
 
